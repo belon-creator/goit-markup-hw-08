@@ -140,7 +140,7 @@
         <h2 class="header-section">New collection</h2>
         <div class="container">
          <ul class="product-list">
-          <li class="product-list-item nc">
+          <li class="product-list__item">
                <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -154,7 +154,7 @@
             </a>
           </li>
 
-          <li class="product-list-item nc">
+          <li class="product-list__item">
             <ul class="img-hover">
               <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
               <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -168,7 +168,7 @@
             >
           </li>
 
-          <li class="product-list-item nc">
+          <li class="product-list__item">
             <ul class="img-hover">
               <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
               <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -182,7 +182,7 @@
             </a>
           </li>
 
-          <li class="product-list-item nc">
+          <li class="product-list__item">
             <ul class="img-hover">
               <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
               <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -206,7 +206,7 @@
 
           <div class="container">
             <ul class="product-list">
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -220,7 +220,7 @@
                 </a>
               </li>
   
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -234,7 +234,7 @@
                 >
               </li>
   
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -248,7 +248,7 @@
                 </a>
               </li>
   
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -262,7 +262,7 @@
                 </a>
               </li>
   
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -276,7 +276,7 @@
                 </a>
               </li>
   
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -290,7 +290,7 @@
                 </a>
               </li>
   
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -304,7 +304,7 @@
                 >
               </li>
   
-              <li class="product-list-item">
+              <li class="product-list__item">
                 <ul class="img-hover">
                   <li class="img-hover-list"><button type="button" class="img-button like"></button></li>
                   <li class="img-hover-list"><button type="button" class="img-button share"></button></li>
@@ -326,36 +326,30 @@
         <section class="content new-collection">
           <h2 class="header-section">Latest news</h2>
           <div class="container">
-            <!-- <h2 class="header-section">Latest news</h2> -->
               <ul class="news-list">
-                <li class="news-list-item">
+                <li class="news__list-item">
                   <img src="./images/homework-04-8.jpg" alt="img" width="350" />
                   <h3 class="news-header">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Facilis, ipsum!
                   </h3>
-                  <p>
+                  <p class="news__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Asperiores aliquam earum pariatur commodi cupiditate illum
                     architecto explicabo exercitationem consequuntur culpa.
                     Reiciendis neque nostrum mollitia exercitationem velit eveniet,
                     ab harum ut.
                   </p>
-                  <a class="news-link" href="#">Read More
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </a>
+                  <a class="news-link" href="#">Read More</a>
                 </li>
     
-                <li class="news-list-item">
+                <li class="news__list-item">
                   <img src="./images/homework-04-9.jpg" alt="img" width="350" />
                   <h3 class="news-header">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Facilis, ipsum!
                   </h3>
-                  <p>
+                  <p class="news__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Asperiores aliquam earum pariatur commodi cupiditate illum
                     architecto explicabo exercitationem consequuntur culpa.
@@ -363,21 +357,18 @@
                     ab harum ut.
                   </p>
                   <a class="news-link" href="#">Read More
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    
                   </a>
                   
                 </li>
     
-                <li class="news-list-item">
+                <li class="news__list-item">
                   <img src="./images/homework-04-10.jpg" alt="img" width="350" />
                   <h3 class="news-header">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Facilis, ipsum!
                   </h3>
-                  <p>
+                  <p class="news__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Asperiores aliquam earum pariatur commodi cupiditate illum
                     architecto explicabo exercitationem consequuntur culpa.
@@ -385,10 +376,7 @@
                     ab harum ut.
                   </p>
                   <a class="news-link" href="#">Read More
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    
                   </a>
                   
                 </li>
@@ -402,7 +390,7 @@
           <h2 class="header-section title">
             Newsletter
         </h2>
-          <div class="container footer">
+          <div class="container__footer">
             
             <p class="text-footer">
                 Follow a collection of news &#38; promotions
