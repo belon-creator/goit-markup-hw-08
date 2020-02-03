@@ -275,6 +275,7 @@ html {
   opacity: 0;
   transform: translateY(100%);
   transition-duration: 250ms;
+  list-style: none;
 }
 
 .img-hover:hover,
@@ -283,14 +284,13 @@ html {
   transform: translateY(0);
 }
 
-.img-hover-list {
-  list-style: none;
+.img-hover__list {
   margin: 0;
   padding: 0;
   transition-delay: 250ms;
   transition-duration: 250ms;
 }
-.img-button {
+.img-hover__button {
   position: relative;
   border: 1px solid #fff;
   width: 50px;
@@ -302,7 +302,7 @@ html {
   opacity: 0;
 }
 .product-list__item:hover,
-.img-button {
+.img-hover__button {
   opacity: 1;
 }
 .img-button:hover,
@@ -311,7 +311,7 @@ html {
   transition-duration: 250ms;
 }
 
-.img-button::before {
+.img-hover__button::before {
   content: "";
   display: block;
   height: 50px;
