@@ -55,7 +55,7 @@ html {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.phone::before {
+.top-header__link--phone::before {
   display: inline-block;
   content: "";
   width: 16px;
@@ -67,7 +67,7 @@ html {
   background-position: center;
 }
 
-.mail::before {
+.top-header__link--mail::before {
   display: inline-block;
   content: "";
   width: 22px;
@@ -101,7 +101,7 @@ html {
   padding: 0;
 }
 .logo-link,
-.menu-list__link {
+.nav-list__link {
   display: block;
   color: var(--text-color);
   font-family: var(--font);
@@ -121,8 +121,8 @@ html {
   font-weight: 900;
 }
 
-.menu-list__link:hover,
-.menu-list__link:focus {
+.nav-list__link:hover,
+.nav-list__link:focus {
   color: #1abc9c;
   transform: scale(1.4);
   transition-duration: 250ms;
