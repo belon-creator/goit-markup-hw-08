@@ -236,16 +236,16 @@ html {
   background-position: center;
   margin-bottom: 54px;
 }
-.setting::before {
+.about__list-item--setting::before {
   background-image: url(../images/icons/setting.png);
 }
-.money::before {
+.about__list-item--money::before {
   background-image: url(../images/icons/saFe.png);
 }
-.global::before {
+.about__list-item--global::before {
   background-image: url(../images/icons/global.png);
 }
-.compass::before {
+.about__list-item--compass::before {
   background-image: url(../images/icons/compass.png);
 }
 /* .about-list-item, */
@@ -305,8 +305,8 @@ html {
 .img-hover__button {
   opacity: 1;
 }
-.img-button:hover,
-.img-button:focus {
+.img-hover__button:hover,
+.img-hover__button:focus {
   background-color: #1abc9c;
   transition-duration: 250ms;
 }
@@ -321,29 +321,29 @@ html {
   transform: translateX(-10%);
 }
 
-.like::before {
+.img-hover__button--like::before {
   background-image: url(../images/icons/like.png);
 }
-.share::before {
+.img-hover__button--share::before {
   background-image: url(../images/icons/share.png);
 }
-.clock::before {
+.img-hover__button--clock::before {
   background-image: url(../images/icons/clock.png);
 }
-.add::before {
+.img-hover__button--add::before {
   background-image: url(../images/icons/add.png);
   background-position: left;
   transform: translateX(8px);
 }
 
-.add {
+.img-hover__button--add {
   position: relative;
   background-color: #323232;
   width: 164px;
   top: -68px;
 }
 
-.add-to-cart {
+.img-hover__text {
   display: block;
   position: absolute;
   text-align: center;
