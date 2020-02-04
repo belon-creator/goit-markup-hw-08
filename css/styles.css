@@ -520,8 +520,8 @@ html {
   cursor: pointer;
 }
 
-.news-link:hover,
-.news-link:focus {
+.news-list__link:hover,
+.news-list__link:focus {
   color: #323232;
 }
 
